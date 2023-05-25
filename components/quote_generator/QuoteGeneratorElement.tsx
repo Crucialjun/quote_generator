@@ -100,6 +100,26 @@ export const QuoteGeneretorSubTitle = styled.div`
   
 `;
 
+export const GenerateQuoteButton = styled.div`
+    background: linear-gradient(to right,#000046,#1cb5e0);
+    background-size: 400% 400%;
+    animation: ${gradientAnimation} 4s ease infinite;
+    height: 100vh;
+    width: 100vw;
+
+  
+`;
+
+export const GenerateQuoteText = styled.div`
+    background: linear-gradient(to right,#000046,#1cb5e0);
+    background-size: 400% 400%;
+    animation: ${gradientAnimation} 4s ease infinite;
+    height: 100vh;
+    width: 100vw;
+
+  
+`;
+
 
 
 

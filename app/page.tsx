@@ -2,7 +2,7 @@
 import React, {useState} from 'react'
 
 //Components Imports
-import { BackgroundImage1,BackgroundImage2, FooterCon, FooterLink, GradientBackgroundCo, QuoteGeneretorContainer, QuoteGeneretorInnerContainer, QuoteGeneretorSubTitle, QuoteGeneretorTitle } from '@/components/quote_generator/QuoteGeneratorElement'
+import { BackgroundImage1,BackgroundImage2, FooterCon, FooterLink, GenerateQuoteButton, GenerateQuoteText, GradientBackgroundCo, QuoteGeneretorContainer, QuoteGeneretorInnerContainer, QuoteGeneretorSubTitle, QuoteGeneretorTitle } from '@/components/quote_generator/QuoteGeneratorElement'
 
 //Assets Import
 import cloud1  from "../assets/cloud-and-thunder.png";
@@ -24,10 +24,15 @@ export default function Home() {
                 <FooterLink
                 href="google.com"  
                 rel = "noopener noreferrer" 
-                target='_blank'> @Crucialjun
+                target='_blank'> Zen Quotes API
                   
                 </FooterLink>
               </QuoteGeneretorSubTitle>
+              <GenerateQuoteButton>
+                <GenerateQuoteText>
+                  Make a quote
+                </GenerateQuoteText>
+              </GenerateQuoteButton>
             </QuoteGeneretorTitle>
           </QuoteGeneretorInnerContainer>
         </QuoteGeneretorContainer>
