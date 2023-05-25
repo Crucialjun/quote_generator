@@ -62,7 +62,7 @@ export const FooterLink = styled(Link)`
 
 `;
 
-export const QuoteGeneretorContainer = styled.div`
+export const QuoteGeneratorContainer = styled.div`
     background: linear-gradient(to right,#000046,#1cb5e0);
     background-size: 400% 400%;
     animation: ${gradientAnimation} 4s ease infinite;

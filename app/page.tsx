@@ -2,7 +2,7 @@
 import React, {useState} from 'react'
 
 //Components Imports
-import { BackgroundImage1,BackgroundImage2, FooterCon, FooterLink, GenerateQuoteButton, GenerateQuoteText, GradientBackgroundCo, QuoteGeneretorContainer, QuoteGeneretorInnerContainer, QuoteGeneretorSubTitle, QuoteGeneretorTitle } from '@/components/quote_generator/QuoteGeneratorElement'
+import { BackgroundImage1,BackgroundImage2, FooterCon, FooterLink, GenerateQuoteButton, GenerateQuoteText, GradientBackgroundCo, QuoteGeneratorContainer, QuoteGeneretorInnerContainer, QuoteGeneretorSubTitle, QuoteGeneretorTitle } from '@/components/quote_generator/QuoteGeneratorElement'
 
 //Assets Import
 import cloud1  from "../assets/cloud-and-thunder.png";
@@ -14,7 +14,7 @@ export default function Home() {
   return (
 
       <GradientBackgroundCo>
-        <QuoteGeneretorContainer>
+        <QuoteGeneratorContainer>
           <QuoteGeneretorInnerContainer>
             <QuoteGeneretorTitle>
               Daily Inspiration Generator
@@ -35,7 +35,7 @@ export default function Home() {
               </GenerateQuoteButton>
             </QuoteGeneretorTitle>
           </QuoteGeneretorInnerContainer>
-        </QuoteGeneretorContainer>
+        </QuoteGeneratorContainer>
         <BackgroundImage1
           src={cloud1}
           height={300}
