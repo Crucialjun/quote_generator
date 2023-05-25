@@ -2,7 +2,7 @@
 import React, {useState} from 'react'
 
 //Components Imports
-import { BackgroundImage1,BackgroundImage2, FooterCon, FooterLink, GradientBackgroundCo } from '@/components/quote_generator/QuoteGeneratorElement'
+import { BackgroundImage1,BackgroundImage2, FooterCon, FooterLink, GradientBackgroundCo, QuoteGeneretorContainer, QuoteGeneretorInnerContainer, QuoteGeneretorSubTitle, QuoteGeneretorTitle } from '@/components/quote_generator/QuoteGeneratorElement'
 
 //Assets Import
 import cloud1  from "../assets/cloud-and-thunder.png";
@@ -14,7 +14,23 @@ export default function Home() {
   return (
 
       <GradientBackgroundCo>
-        
+        <QuoteGeneretorContainer>
+          <QuoteGeneretorInnerContainer>
+            <QuoteGeneretorTitle>
+              Daily Inspiration Generator
+              <QuoteGeneretorSubTitle>
+                Looking for a splash of inspiration? Generate a quote card with a random inspiration
+                quote provided by 
+                <FooterLink
+                href="google.com"  
+                rel = "noopener noreferrer" 
+                target='_blank'> @Crucialjun
+                  
+                </FooterLink>
+              </QuoteGeneretorSubTitle>
+            </QuoteGeneretorTitle>
+          </QuoteGeneretorInnerContainer>
+        </QuoteGeneretorContainer>
         <BackgroundImage1
           src={cloud1}
           height={300}
